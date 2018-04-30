@@ -32,7 +32,7 @@
                     $("#city").html(data.city);
                     $("#latitude").html(data.latitude);
                     $("#longitude").html(data.longitude);
-                    alert(data.city);
+                    //alert(data.city);
 
                     },
                     complete: function(data,status) { //optional, used for debugging purposes
